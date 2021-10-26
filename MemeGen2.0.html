@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeGenerator</title>
+</head>
+<body>
+    <div>
+        <h1>Joshua's Meme Generator</h1>
+        <p>Here we can create our dankest of memes</p>
+    </div>
+
+    <form action="#" id="memeform">
+        <p>
+            <label for=""> Enter Top Text
+            <input id="top-text" type="text" placeholder="Top Text">
+            </label>
+        </p>
+        <p>
+            <label for=""> Enter Bottom Text
+            <input id="bottom-text" type="text" placeholder="Bottom Text">
+            </label>
+        </p>    
+       
+        <input id="meme-file" type="file">
+        <input id="submit-btn" type="submit" placeholder="Generate Meme">
+
+    </form>
+
+    <canvas id="meme-canva"></canvas> 
+
+    <script src="MemeGen2.0.js"></script>
+</body>
+</html>
